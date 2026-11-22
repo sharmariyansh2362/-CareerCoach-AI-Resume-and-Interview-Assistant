@@ -34,16 +34,6 @@ const Login = () => {
     }
   };
 
-  const handleDemoFill = (role) => {
-    if (role === 'admin') {
-      setEmail('admin@careercoach.com');
-      setPassword('Admin@123456');
-    } else {
-      setEmail('alex.developer@example.com');
-      setPassword('Secret@123456');
-    }
-  };
-
   return (
     <div className="auth-wrapper">
       <div className="card">
@@ -96,26 +86,6 @@ const Login = () => {
             )}
           </button>
         </form>
-
-        <div className="demo-credentials">
-          <p>🧪 Quick Testing Demo Accounts:</p>
-          <div className="demo-btn-group">
-            <button
-              type="button"
-              className="btn btn-secondary btn-sm"
-              onClick={() => handleDemoFill('user')}
-            >
-              Fill User
-            </button>
-            <button
-              type="button"
-              className="btn btn-secondary btn-sm"
-              onClick={() => handleDemoFill('admin')}
-            >
-              Fill Admin
-            </button>
-          </div>
-        </div>
 
         <div className="auth-footer">
           Don't have an account? <Link to="/register">Create an account</Link>
