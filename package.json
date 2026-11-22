@@ -1,0 +1,22 @@
+{
+  "name": "careercoach",
+  "version": "1.0.0",
+  "description": "CareerCoach – AI Resume and Interview Assistant (MERN Stack)",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "mern",
+    "ai",
+    "resume",
+    "interview",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
